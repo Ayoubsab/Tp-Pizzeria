@@ -1,4 +1,4 @@
-+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 body{
 	background-color: rgba(14, 62, 29, 0.91);
@@ -35,7 +35,7 @@ header {
 }
 
 .logo{
-	cursor: pointer;+
+	cursor: pointer;
 }
 
 .nav_links{
