@@ -3,17 +3,17 @@
 <head>
 	<meta charset="utf-8">
 	<title>Pizzeria</title>
-	<link rel="stylesheet" type="text/css" href="static/css/mainstyle.css">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/mainstyle.css') }}">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
 </head>
 <body>
 	<header>
-		<img class="logo" src="static/images/logo.png" alt="logo">
+		<a href="/"><img class="logo" src="{{ url_for('static',filename='images/logo.png') }}" alt="logo"></a>
 		<nav>
 			<ul class="nav_links">
 				<li><a href="">Menu</a></li>
 				<li><a href="">Profil</a></li>
-				<li><a href="login">Login</a></li>
+				<li><a href="/login">Login</a></li>
 				<li><a href="">Sign in</a></li>
 			</ul>
 		</nav>
